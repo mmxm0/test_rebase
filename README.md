@@ -124,9 +124,7 @@ Então é isso, valeu pela paciência. E se tiver qualquer dúvida. Eu não esto
 # Considetações finais E IMPORTANTES SOBRE O USO DO REBASE
 
 Conforme mencionado no inicio desse artigo, É PRECISO TER MUITO MUIIIIIIIIIITO CUIDADO COM O USO DO REBASE EM BRANCHS QUE SÃO COMPARTILHADAS COM OUTRAS PESSOAS, *id est*, outras pessoas também usam e fazem *commit* nela.
-Viagem no tempo tem consequências meu amigo, não pense que é só ir lá consertar as coisas, xablau tá tudo certo. Então para que você evite mais dor de cabeça pro seu lado.
-
-Para evitar problemas de consistência no histórico ao usar o rebase, especialmente em ambientes colaborativos, siga estas práticas:
+Viagem no tempo tem consequências meu amigo, não pense que é só ir lá consertar as coisas, xablau tá tudo certo. Então para que você evite mais dor de cabeça pro seu lado com problemas de consistência no histórico ao usar o rebase, especialmente em ambientes colaborativos, siga estas práticas:
 
 - Evite Rebase em Branches Compartilhadas: Nunca faça rebase em uma branch que já foi compartilhada com outros colaboradores. Isso altera o histórico, criando inconsistências para aqueles que já puxaram as mudanças.
 
@@ -140,4 +138,4 @@ Para evitar problemas de consistência no histórico ao usar o rebase, especialm
 
 - Crie Branches Temporárias: Antes de rebasear, crie uma nova branch temporária a partir da branch atual para preservar o estado original. Se algo der errado, você pode voltar facilmente.
 
-Seguindo essas práticas, você ~~ vaievitar barulho com os coleguinhas~~  minimizará o risco de causar problemas de consistência no histórico ao colaborar com outros desenvolvedores.
+Seguindo essas práticas, você ~~vaievitar barulho com os coleguinhas~~  minimizará o risco de causar problemas de consistência no histórico ao colaborar com outros desenvolvedores.
