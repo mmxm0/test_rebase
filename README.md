@@ -121,7 +121,7 @@ Lembrando que: Isso só vale pro repositório em questão, os outros seguem com 
 
 Então é isso, valeu pela paciência. E se tiver qualquer dúvida. Eu não estou aqui.
 
-# Considetações finais E IMPORTANTES SOBRE O USO DO REBASE
+# Considerações finais E IMPORTANTES SOBRE O USO DO REBASE
 
 Conforme mencionado no inicio desse artigo, É PRECISO TER MUITO MUIIIIIIIIIITO CUIDADO COM O USO DO REBASE EM BRANCHS QUE SÃO COMPARTILHADAS COM OUTRAS PESSOAS, *id est*, outras pessoas também usam e fazem *commit* nela.
 Viagem no tempo tem consequências meu amigo, não pense que é só ir lá consertar as coisas, xablau tá tudo certo. Então para que você evite mais dor de cabeça pro seu lado com problemas de consistência no histórico ao usar o rebase, especialmente em ambientes colaborativos, siga estas práticas:
